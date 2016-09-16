@@ -214,7 +214,6 @@ fi
 # - tag
 # If a group is missing it will be an empty string
 imageRegex="^([a-zA-Z0-9.\-]+):?([0-9]+)?/([a-zA-Z0-9_-]+)/?([a-zA-Z0-9_-]+)?:?([a-zA-Z0-9\._-]+)?$"
-672318177837.dkr.ecr.ap-southeast-1.amazonaws.com/tu-poc-ecr:latest
 
 if [[ $IMAGE =~ $imageRegex ]]; then
   # Define variables from matching groups
