@@ -27,8 +27,7 @@ WORKDIR /usr/local/tomcat8/apache-tomcat-8.0.37/webapps
 #RUN  wget https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war
 RUN  wget http://54.254.139.234/artifactory/simple/poc-repo/TUPOC/HelloWorld/HelloWorld.war
 
-#EXPOSE 8080
-EXPOSE 80
+EXPOSE 8080
 
 WORKDIR /usr/local/tomcat8/apache-tomcat-8.0.37
 
